@@ -3,7 +3,7 @@
 # This defined type enables a user to authbind to a privileged port
 #
 # Authors:
-#   Mike Wilson -mw@ceh.ac.uk
+#   Mike Wilson - mw@ceh.ac.uk
 #   Christopher Johnson - cjohn@ceh.ac.uk
 #
 # Parameters:
