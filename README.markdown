@@ -31,5 +31,5 @@ Authbind only affects debian and only works on ipv4. This module has been tested
 
 ## Contributors
 
-   Mike Wilson - mw@ceh.ac.uk
-   Christopher Johnson - cjohn@ceh.ac.uk
+Mike Wilson - mw@ceh.ac.uk
+Christopher Johnson - cjohn@ceh.ac.uk
