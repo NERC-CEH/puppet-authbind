@@ -7,8 +7,8 @@
 #   Christopher Johnson - cjohn@ceh.ac.uk
 #
 # Parameters:
-# - The $port to bind to, defaults to $title
 # - The $uid of the user who is to bind to the given $port
+# - The $port to bind to, defaults to $title
 #
 # Requires:
 # - The authbind class
@@ -21,8 +21,8 @@
 #  }
 #
 define authbind::byport (
-    $port = $title, 
     $uid
+    $port = $title, 
 ) {
     require authbind
 
