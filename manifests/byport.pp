@@ -1,24 +1,24 @@
-# Definition: authbind::byport
+# == Define: authbind::byport
 #
 # This defined type enables a user to authbind to a privileged port
 #
-# Authors:
-#   Mike Wilson - mw@ceh.ac.uk
-#   Christopher Johnson - cjohn@ceh.ac.uk
+# === Parameters
+# [*uid*]
+#   The $uid of the user who is to bind to the given $port
+# 
+# [*port*]
+#   The $port to bind to, defaults to $title
 #
-# Parameters:
-# - The $uid of the user who is to bind to the given $port
-# - The $port to bind to, defaults to $title
+# === Examples
 #
-# Requires:
-# - The authbind class
+# Let tomcat bind to port 80
+#    authbind::byport { '80':
+#        uid => 'tomcat'
+#    }
 #
-# Sample Usage :
-#
-#  #Let tomcat bind to port 80
-#  authbind::byport { '80':
-#    uid => 'tomcat'
-#  }
+# === Authors
+#   Mike Wilson <mw@ceh.ac.uk>
+#   Christopher Johnson <cjohn@ceh.ac.uk>
 #
 define authbind::byport (
     $uid
