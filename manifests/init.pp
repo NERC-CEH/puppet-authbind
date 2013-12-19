@@ -4,8 +4,8 @@
 # users bind to priviledged ports
 #
 # === Authors
-#   Mike Wilson <mw@ceh.ac.uk>
-#   Christopher Johnson <cjohn@ceh.ac.uk>
+# - Mike Wilson <mw@ceh.ac.uk>
+# - Christopher Johnson <cjohn@ceh.ac.uk>
 #
 class authbind {
     package {'authbind':

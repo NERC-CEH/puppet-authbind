@@ -3,11 +3,9 @@
 # This defined type enables a user to authbind to a privileged port
 #
 # === Parameters
-# [*uid*]
-#   The $uid of the user who is to bind to the given $port
-# 
-# [*port*]
-#   The $port to bind to, defaults to $title
+#
+# [*uid*] The $uid of the user who is to bind to the given $port
+# [*port*] The $port to bind to, defaults to $title
 #
 # === Examples
 #
@@ -17,8 +15,8 @@
 #    }
 #
 # === Authors
-#   Mike Wilson <mw@ceh.ac.uk>
-#   Christopher Johnson <cjohn@ceh.ac.uk>
+# - Mike Wilson <mw@ceh.ac.uk>
+# - Christopher Johnson <cjohn@ceh.ac.uk>
 #
 define authbind::byport (
     $uid
