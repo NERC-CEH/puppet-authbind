@@ -19,8 +19,8 @@
 # - Christopher Johnson <cjohn@ceh.ac.uk>
 #
 define authbind::byport (
-    $uid
-    $port = $title, 
+    $uid,
+    $port = $title
 ) {
     require authbind
 
