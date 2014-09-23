@@ -1,0 +1,19 @@
+{
+  "name": "puppet-authbind",
+  "version": "0.1.0",
+  "summary": "Allow non-privileged users on debian boxes to bind to ports below 1024",
+  "author": "CEH App Dev",
+  "project_page": "https://github.com/NERC-CEH/puppet-authbind",
+  "source": "git@github.com:NERC-CEH/puppet-authbind.git",
+  "license": "GPL-3.0",
+  "operatingsystem_support": [
+  	{
+  		"operatingsystem": "Ubuntu",
+  		"operatingsystemrelease": ["12.04", "14.04"]
+  	}
+  ],
+  "requirements": [
+    {"name": "puppet", "version_requirement": "3.x"}
+  ],
+  "dependencies": []
+}

@@ -27,7 +27,7 @@ define authbind::byport (
     file {"/etc/authbind/byport/${port}":
         ensure     => file,
         require    => Package['authbind'],
-        mode       => 755,
+        mode       => "755",
         owner      => $uid,
     }
 }
