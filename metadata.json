@@ -1,0 +1,18 @@
+{
+  "name": "ceh-authbind",
+  "version": "1.0.0",
+  "author": "Centre for Ecology & Hydrology",
+  "license": "GPL-2.0",
+  "summary": "Allows non-privileged users on debian boxes to bind to ports below 1024",
+  "source": "https://github.com/NERC-CEH/puppet-authbind",
+  "project_page": "https://forge.puppetlabs.com/ceh/authbind",
+  "issues_url": "https://github.com/NERC-CEH/puppet-authbind/issues",
+  "tags": ["authbind", "ubuntu"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [ "14.04" ]
+    }
+   ],
+  "dependencies": []
+}
