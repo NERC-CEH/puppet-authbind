@@ -1,2 +1,4 @@
 #Ignore Emacs file
 *~
+spec/fixtures
+spec/reports
